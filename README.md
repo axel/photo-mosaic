@@ -1,7 +1,7 @@
 # PhotoMosaic
 Create beautiful photo mosaics from your own images.
 
-![Alt text](docs/img/eltz_flowers.png "Eltz Castle made of flower tiles")
+![Alt text](docs/img/tiger_mosaic.png "tiger made of flower tiles")
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -26,9 +26,9 @@ require "photo_mosaic"
 PhotoMosaic.subscribe(PhotoMosaic::ProgressBar.new)
 
 PhotoMosaic.create(
-  original_image: "./images/castle.png",
+  original_image: "./images/tiger.png",
   tile_images: Dir["./images/tile_images/flowers/*"],
-  output_image: "./images/castle_mosaic.png",
+  output_image: "./images/tiger_mosaic.png",
   tile_width: 25,
   tile_height: 25
 );
