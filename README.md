@@ -4,35 +4,12 @@ Create beautiful photo mosaics from your own images.
 ![Alt text](docs/img/tiger_mosaic.png "tiger made of flower tiles")
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'photo_mosaic'
-```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself with:
-
     $ gem install photo_mosaic
 
 ## Usage
 
-```ruby
-require "photo_mosaic"
+    $ photo_mosaic --original images/original.jpg --tiles images/tiles --output mosaic.jpg --tile-width 20 --tile-height 20
 
-PhotoMosaic.subscribe(PhotoMosaic::ProgressBar.new)
-
-PhotoMosaic.create(
-  original_image: "./images/tiger.png",
-  tile_images: Dir["./images/tile_images/flowers/*"],
-  output_image: "./images/tiger_mosaic.png",
-  tile_width: 25,
-  tile_height: 25
-);
-```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
