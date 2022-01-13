@@ -1,4 +1,5 @@
 require "mini_magick"
+require "optimist"
 require "ruby-progressbar"
 require "wisper"
 require "zeitwerk"

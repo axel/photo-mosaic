@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files = File.directory?(".git") ? `git ls-files`.split($/) : Dir.glob("**/*")
   spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
+  spec.executables   = ["photo_mosaic"]
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem

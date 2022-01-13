@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require "photo_mosaic"
+PhotoMosaic::Parser.run(ARGV)

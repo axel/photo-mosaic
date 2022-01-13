@@ -14,3 +14,5 @@ gem "ruby-progressbar", "~> 1.11"
 gem "simplecov", "~> 0.21", require: false, group: :test
 gem "wisper", "~> 2.0.1"
 gem "wisper-rspec", "~>1.1.0", require: false, group: :test
+
+gem "optimist", "~> 3.0"
