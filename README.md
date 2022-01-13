@@ -1,7 +1,7 @@
 # PhotoMosaic
-Create beautiful photo mosaics from your own images.
+Create a photo mosaic by supplying an original image and a directory of tile images.
 
-![Alt text](docs/img/tiger_mosaic.png "tiger made of flower tiles")
+![Alt text](docs/img/tiger_mosaic.jpg "tiger made of flower tiles")
 ## Installation
 
     $ gem install photo_mosaic
