@@ -20,11 +20,11 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  spec.add_dependency "bundler"
-  spec.add_dependency "zeitwerk"
-  spec.add_dependency "mini_magick"
-  spec.add_dependency "ruby-progressbar"
-  spec.add_dependency "wisper"
+  spec.add_dependency "bundler", ["2.3.5"]
+  spec.add_dependency "zeitwerk", ["2.5.3"]
+  spec.add_dependency "mini_magick", ["4.11.0"]
+  spec.add_dependency "ruby-progressbar", ["1.11.0"]
+  spec.add_dependency "wisper", ["2.0.1"]
 
   # For more information and docs about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
